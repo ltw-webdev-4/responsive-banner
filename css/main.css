@@ -87,7 +87,7 @@ body {
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
     position: absolute;
-    bottom: -3em;
+    bottom: 0;
     width: 100%;
   }
 
@@ -107,9 +107,9 @@ body {
   .banner-btn {
     border-color: #fff;
 
-    position: relative;
-    left: 30em;
-    bottom: 2em;
+    position: absolute;
+    right: 25%;
+    bottom: 1em;
   }
 
 }
