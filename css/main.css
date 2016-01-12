@@ -73,7 +73,7 @@ body {
 }
 
 .banner-btn {
-
+  position: static;
 }
 
 @media only screen and (min-width: 42em) {
@@ -87,35 +87,29 @@ body {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
 
     position: absolute;
-    bottom: 0em;
+    bottom: 0;
     width: 100%;
+  }
+
+  .banner-content-inner {
+    position: relative;
   }
 
   .banner-title {
     margin-bottom: 0;
-
-    position: absolute;
-    bottom: 6rem;
-    left: 17rem;
-    width: 100%;
   }
 
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
-
-    position: absolute;
-    bottom: 1rem;
-    left: 17rem;
-    width: 100%;
   }
 
   .banner-btn {
     border-color: #fff;
 
     position: absolute;
-    bottom: 2rem;
-    right: 17rem;
+    bottom: 1rem;
+    right: 0rem;
   }
 
 }
