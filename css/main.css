@@ -73,7 +73,6 @@ body {
   margin: 0 0 1rem;
 }
 
-
 @media only screen and (min-width: 42em) {
 
   .banner {
@@ -87,7 +86,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
+  }
 
   .banner-title {
     margin-bottom: 0;
