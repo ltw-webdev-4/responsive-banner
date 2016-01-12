@@ -108,6 +108,7 @@ body {
     border-color: #fff;
     position: absolute;
     right: 0;
+    bottom: 1em;
   }
 
 }
