@@ -93,14 +93,13 @@ body {
   .banner-content-inner {
   }
 
-  .banner-title {
-    margin-bottom: 0; 
-  }
-
   .banner-desc {
     max-width: 25em;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;  
+  }
+
+  .banner-title {
+    margin-bottom: 0; 
   }
 
   .banner-btn {
