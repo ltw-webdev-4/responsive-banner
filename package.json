@@ -1,0 +1,18 @@
+{
+  "name": "auto-marking-tests",
+  "private": true,
+  "devDependencies": {
+    "diff": "^2.2.1",
+    "git-count-commits": "^0.1.0",
+    "htmlcs": "^0.1.10",
+    "js-beautify": "^1.5.10",
+    "mocha": "^2.3.4",
+    "node-dir": "^0.1.11",
+    "stylelint": "^3.2.1",
+    "w3c-css": "^1.0.0",
+    "w3cjs": "^0.3.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout=5000 ./.tests/*.js"
+  }
+}
