@@ -14,9 +14,10 @@
 
 ---
 
-## Handing in & marks
+## Fork, pull request, submit URL
 
-Use the fork and pull request method. **Hand in your Pull Request URL for this project.**
+Use the [fork and pull request method](http://tasks.learn-the-web.algonquindesign.ca/web-dev-1/fork-pass-tests/).
+**Hand in your Pull Request URL for this project.**
 
 ```
 https://github.com/acgd-webdev-1/responsive-banner/pull/1
