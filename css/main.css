@@ -80,6 +80,7 @@ body {
 
   .banner {
     max-height: 500px;
+    position: relative;
   }
 
   .banner-content {
@@ -87,7 +88,10 @@ body {
   }
 
   .banner-content-inner {
-
+    position: absolute;
+    left: 3em;
+    bottom: 1em;
+    width: 100%;
   }
 
   .banner-title {
@@ -101,6 +105,9 @@ body {
 
   .banner-btn {
     border-color: #fff;
+    position: absolute;
+    right: 4em;
+    bottom: 1em;
   }
 
 }
