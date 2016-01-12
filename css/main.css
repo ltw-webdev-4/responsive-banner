@@ -28,6 +28,8 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+
+  position: relative;
 }
 
 .btn {
@@ -60,6 +62,9 @@ body {
   max-width: 50em;
   margin-left: auto;
   margin-right: auto;
+
+  position: absolute;
+  overflow: hidden;
 }
 
 .banner-title {
