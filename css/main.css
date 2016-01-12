@@ -49,6 +49,8 @@ body {
 .banner {
   background-color: #495562;
   overflow: hidden;
+
+  position: relative;
 }
 
 .banner-content {
@@ -84,14 +86,20 @@ body {
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+
+
+    position: absolute;
+    bottom: 0;
   }
 
   .banner-content-inner {
-
+    position: relative;
   }
 
   .banner-title {
     margin-bottom: 0;
+
+    position: absolute;
   }
 
   .banner-desc {
