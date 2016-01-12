@@ -85,21 +85,21 @@ body {
     bottom: 0;
     width: 100%;
   }
-  
-  .banner-content-inner {
+
+ .banner-content-inner {
     position: relative;
   }
-  
-  .banner-title {
+
+ .banner-title {
     margin-bottom: 0;
   }
-  
-  .banner-desc {
+
+ .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
   }
-  
-  .banner-btn {
+
+ .banner-btn {
     border-color: #fff;
     position: absolute;
     right: 0;
