@@ -66,6 +66,7 @@ body {
   margin: 0 0 1rem;
   color: #fff;
   font-size: 1.5rem;
+
 }
 
 .banner-desc {
@@ -80,13 +81,21 @@ body {
 
   .banner {
     max-height: 500px;
+    position: relative;
   }
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+    width: 100%;
+    position: absolute;
+    bottom:0;
+
+
   }
 
   .banner-content-inner {
+    position: relative;
+    top: 3rem;
 
   }
 
@@ -97,10 +106,14 @@ body {
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
+    bottom: 8rem;
   }
 
   .banner-btn {
     border-color: #fff;
+    position: relative;
+    left: 30rem;
+    bottom: 4rem;
   }
 
 }
