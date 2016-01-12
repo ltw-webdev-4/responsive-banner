@@ -80,14 +80,22 @@ body {
 
   .banner {
     max-height: 500px;
+
+    position: relative;
   }
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   .banner-content-inner {
+    width: 100%;
 
+    position: relative;
   }
 
   .banner-title {
@@ -101,6 +109,10 @@ body {
 
   .banner-btn {
     border-color: #fff;
+
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
   }
 
 }
