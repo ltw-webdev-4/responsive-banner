@@ -84,6 +84,10 @@ body {
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+    position: absolute;
+    left: 0;
+    bottom: 450px;
+    width: 100%;
   }
 
   .banner-content-inner {
