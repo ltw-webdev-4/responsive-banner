@@ -86,7 +86,7 @@ body {
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
     position: absolute;
-    bottom: .01rem;
+    bottom: 0rem;
     width: 100%;
   }
 
@@ -108,5 +108,6 @@ body {
     float: right;
     position: relative;
     right: 3rem;
-    top: 2rem;
+    bottom: 4rem;
   }
+}
