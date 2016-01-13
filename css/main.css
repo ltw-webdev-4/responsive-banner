@@ -72,10 +72,6 @@ body {
   margin: 0 0 1rem;
 }
 
-.banner-btn {
-
-}
-
 @media only screen and (min-width: 42em) {
 
   .banner {
@@ -84,10 +80,6 @@ body {
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
-  }
-
-  .banner-content-inner {
-
   }
 
   .banner-title {
