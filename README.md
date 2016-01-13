@@ -12,6 +12,12 @@
 - And some of the CSS is in place too.
 - *What’s important for you to do is add the proper `position` and coordinates to the correct elements.*
 
+**Only use these CSS properties:**
+
+- `position`
+- `top`, `left`, `right`, `bottom`
+- `width
+
 ---
 
 ## Fork, pull request, submit URL
