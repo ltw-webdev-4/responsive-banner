@@ -6,13 +6,24 @@ var
   linter = require('stylelint')
 ;
 
+var cleanMessage = function (message) {
+  message = message.replace(/\s+/g, ' ');
+  return message;
+};
+
 var shouldIncludeError = function (message, line) {
-  if (message == 'Parse Error' && line == 1) return false; // Caused by @viewport
-  if (message.match(/at-rule @.*viewport/)) return false;
-  if (message.match(/text-size-adjust/)) return false;
+  // Caused by @viewport
+  if (message == 'Parse Error' && line == 1) return false;
+
+  if (message.match(/at-rule @.*viewport/i)) return false;
+
+  if (message.match(/text-size-adjust/i)) return false;
+
+  // Works around validator's calc() bug
+  if (message.match(/value error.*parse error/i)) return false;
 
   return true;
-}
+};
 
 /*
   +++++++++++++++++++++++++++++++++++++++++++++++
@@ -49,8 +60,10 @@ describe('# css/main.css', function () {
 
       if (data.errors && data.errors.length > 0) {
         data.errors.forEach(function (item) {
-          if (shouldIncludeError(item.message, item.line)) {
-            prettyErrors.push(util.format('Line %d: %s', item.line, item.message));
+          var message = cleanMessage(item.message);
+
+          if (shouldIncludeError(message, item.line)) {
+            prettyErrors.push(util.format('Line %d: %s', item.line, message));
           }
         });
 
