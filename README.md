@@ -16,7 +16,7 @@
 
 - `position`
 - `top`, `left`, `right`, `bottom`
-- `width
+- `width`
 
 ---
 
