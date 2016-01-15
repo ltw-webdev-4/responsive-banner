@@ -87,7 +87,7 @@ body {
   }
 
   .banner-content-inner {
-
+    position: relative;
   }
 
   .banner-title {
