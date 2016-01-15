@@ -3,6 +3,7 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
@@ -16,7 +17,7 @@ html {
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -66,7 +67,7 @@ body {
   font-size: 1.5rem;
 }
 
- .banner-desc {
+.banner-desc {
   margin: 0 0 1rem;
 }
 
@@ -96,7 +97,7 @@ body {
     margin-bottom: 0;
     width: 50%;
   }
-  
+
   .banner-btn {
     border-color: #fff;
     position: absolute;
