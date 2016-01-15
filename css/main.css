@@ -72,9 +72,7 @@ body {
   margin: 0 0 1rem;
 }
 
-.banner-btn {
 
-}
 
 @media only screen and (min-width: 42em) {
 
@@ -102,7 +100,7 @@ body {
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
-    
+
   }
 
   .banner-btn {
