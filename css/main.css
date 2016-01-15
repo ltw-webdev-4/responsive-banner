@@ -84,7 +84,7 @@ body {
   }
 
   .banner-content {
-    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 90%);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -96,6 +96,9 @@ body {
 
   .banner-title {
     margin-bottom: 0;
+    position: absolute;
+    left: 115px;
+    bottom: 100px;
   }
 
   .banner-desc {
@@ -103,6 +106,7 @@ body {
     margin-bottom: 0;
     position: absolute;
     left: 115px;
+    bottom: 30px;
   }
 
   .banner-btn {
