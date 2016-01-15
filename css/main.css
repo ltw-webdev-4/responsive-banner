@@ -54,6 +54,8 @@ body {
 .banner-content {
   padding: 1rem;
   text-align: left;
+  position: relative;
+  width: 100%;
 }
 
 .banner-content-inner {
@@ -66,28 +68,30 @@ body {
   margin: 0 0 1rem;
   color: #fff;
   font-size: 1.5rem;
+  width: 100%;
 }
 
 .banner-desc {
   margin: 0 0 1rem;
-}
-
-.banner-btn {
-
+  width: 100%;
 }
 
 @media only screen and (min-width: 42em) {
 
   .banner {
     max-height: 500px;
+    position: relative;
   }
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
   }
 
   .banner-content-inner {
-
+    position: relative;
   }
 
   .banner-title {
@@ -101,6 +105,9 @@ body {
 
   .banner-btn {
     border-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 1em;
   }
 
 }
