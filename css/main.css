@@ -101,6 +101,9 @@ body {
 
   .banner-btn {
     border-color: #fff;
+    position: absolute;
+    bottom: 1em;
+    right: 0;
   }
 
 }
