@@ -93,7 +93,7 @@ body {
   .banner-title {
     margin-bottom: 0;
     position: relative;
-    bottom: 1;
+    bottom: 0;
   }
 
   .banner-desc {
