@@ -92,23 +92,23 @@ body {
   }
 
   .banner-content-inner {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 50%;
+    position: relative;
   }
 
   .banner-title {
     margin-bottom: 0;
+    position: absolute;
   }
 
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
+    position: absolute;
   }
 
   .banner-btn {
     border-color: #fff;
+    position: absolute;
   }
 
 }
