@@ -89,11 +89,13 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
-    top:80px;
+    top: 70px;
   }
 
   .banner-content-inner {
-      position: absolute;
+    position: absolute;
+    top: 190px;
+    bottom: 0;
   }
 
   .banner-title {
