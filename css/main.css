@@ -89,18 +89,19 @@ body {
       bottom:0;
       width:100%;
 
-
   }
 
   .banner-content-inner {
     width:100%;
     position: relative;
+
   }
 
   .banner-title {
     margin-bottom: 0;
     bottom:0;
     left:0;
+    width:100%
 
   }
 
