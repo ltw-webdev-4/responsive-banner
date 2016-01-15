@@ -49,44 +49,47 @@ body {
 .banner {
   background-color: #495562;
   overflow: hidden;
+
 }
 
 .banner-content {
   padding: 1rem;
   text-align: left;
+
 }
 
 .banner-content-inner {
   max-width: 50em;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .banner-title {
   margin: 0 0 1rem;
   color: #fff;
   font-size: 1.5rem;
+
 }
 
 .banner-desc {
   margin: 0 0 1rem;
 }
 
-.banner-btn {
-
-}
-
 @media only screen and (min-width: 42em) {
 
   .banner {
     max-height: 500px;
+    position: relative;
+
   }
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
-  }
-
-  .banner-content-inner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 
   }
 
@@ -101,6 +104,9 @@ body {
 
   .banner-btn {
     border-color: #fff;
+    position: absolute;
+    right: 10%;
+    bottom: 30%;
   }
 
 }
