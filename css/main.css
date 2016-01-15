@@ -73,7 +73,7 @@ body {
 }
 
 @media only screen and (min-width: 42em) {
-  
+
   .banner {
     max-height: 500px;
     position: relative;
