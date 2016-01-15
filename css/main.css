@@ -55,7 +55,7 @@ body {
   padding: 1rem;
   text-align: left;
   bottom: 0;
-  
+  width: 100%;
 }
 
 .banner-content-inner {
@@ -79,6 +79,7 @@ body {
 
   .banner {
     max-height: 500px;
+    overflow: hidden;
   }
 
   .banner-content {
