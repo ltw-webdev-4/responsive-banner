@@ -87,20 +87,23 @@ body {
   }
 
   .banner-content-inner {
-
+    position: relative;
   }
 
   .banner-title {
     margin-bottom: 0;
+    position: relative;
   }
 
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
+    position: relative;
   }
 
   .banner-btn {
     border-color: #fff;
+    position: relative;
   }
 
 }
