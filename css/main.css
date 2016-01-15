@@ -49,17 +49,11 @@ body {
 .banner {
   background-color: #495562;
   overflow: hidden;
-  position: relative;
 }
 
 .banner-content {
   padding: 1rem;
   text-align: left;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
 }
 
 .banner-content-inner {
