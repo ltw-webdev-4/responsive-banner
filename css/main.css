@@ -87,10 +87,7 @@ body {
   }
 
   .banner-content-inner {
-    position: absolute;
-    bottom: 0;
-    width: 50%;
-    left: 10%;
+    position: relative;
   }
 
   .banner-title {
@@ -105,8 +102,8 @@ body {
   .banner-btn {
     border-color: #fff;
     position: absolute;
-    bottom: 10%;
-    right: -20%;
+    bottom: 20%;
+    right: -10%;
   }
 
 }
