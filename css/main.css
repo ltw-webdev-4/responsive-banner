@@ -92,6 +92,7 @@ body {
   }
 
   .banner-content-inner {
+    position: relative;
 
   }
 
@@ -106,6 +107,9 @@ body {
 
   .banner-btn {
     border-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 
 }
