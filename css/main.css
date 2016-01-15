@@ -3,7 +3,6 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
-
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
@@ -16,20 +15,16 @@ html {
   font-size: 100%;
   line-height: 1.5;
 }
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
 body {
   margin: 0;
 }
-
 .img-flex {
   display: block;
   width: 100%;
 }
-
 .btn {
   display: inline-block;
   padding: .5em .75em .6em;
@@ -40,75 +35,57 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
-
 .btn:hover {
   background-color: #fff;
   color: #495562;
 }
-
 .banner {
   background-color: #495562;
   overflow: hidden;
 }
-
 .banner-content {
   padding: 1rem;
   text-align: left;
 }
-
 .banner-content-inner {
   max-width: 50em;
   margin-left: auto;
   margin-right: auto;
 }
-
 .banner-title {
   margin: 0 0 1rem;
   color: #fff;
   font-size: 1.5rem;
 }
-
 .banner-desc {
   margin: 0 0 1rem;
 }
-
-
 @media only screen and (min-width: 42em) {
 
   .banner {
       max-height: 500px;
       position: relative;
   }
-
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
     width: 100%;
     position: absolute;
     bottom: 0;
-
   }
-
 .banner-content-inner {
     position: relative;
-
   }
-
   .banner-title {
     margin-bottom: 0;
-
   }
-
   .banner-desc {
     margin-bottom: 0;
     width: 50%;
   }
-
   .banner-btn {
     border-color: #fff;
     position: absolute;
     bottom: 0;
     right: 0;
-
   }
-
 }
