@@ -88,7 +88,7 @@ body {
   }
 
   .banner-content-inner {
-
+    position: static;
   }
 
   .banner-title {
@@ -101,12 +101,14 @@ body {
     max-width: 25em;
     margin-bottom: 0;
     position: absolute;
-    top: 20em;
+    top: 25em;
   }
 
   .banner-btn {
     border-color: #fff;
     position: absolute;
+    top: 22em;
+    right: 10em;
   }
 
 }
