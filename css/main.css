@@ -91,7 +91,7 @@ body {
   }
 
   .banner-content-inner {
-
+    width: 100%;
   }
 
   .banner-title {
@@ -106,8 +106,8 @@ body {
   .banner-btn {
     border-color: #fff;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 10em;
+    bottom: 2em;
   }
 
 }
