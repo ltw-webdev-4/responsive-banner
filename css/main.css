@@ -76,18 +76,21 @@ body {
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 42em) {
 
   .banner {
     max-height: 500px;
+    position: relative;
   }
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+    z-index: 1000;
+    position: absolute;
   }
 
   .banner-content-inner {
-    position: relative;
+
   }
 
   .banner-title {
@@ -104,3 +107,5 @@ body {
   }
 
 }
+
+
