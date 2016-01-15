@@ -55,7 +55,6 @@ body {
 .banner-content {
   padding: 1rem;
   text-align: left;
-  
 
 }
 
@@ -94,12 +93,7 @@ body {
     bottom: 0;
     right: 0;
     width: 100%;
-    
-  }
-
-  .banner-content-inner {
-
-  }
+  } 
 
   .banner-title {
     margin-bottom: 0;
