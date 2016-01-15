@@ -96,17 +96,13 @@ body {
 
   .banner-title {
     margin-bottom: 0;
-    position: absolute;
-    left: 115px;
-    bottom: 100px;
+
   }
 
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
-    position: absolute;
-    left: 115px;
-    bottom: 30px;
+    
   }
 
   .banner-btn {
