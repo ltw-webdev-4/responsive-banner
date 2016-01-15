@@ -72,9 +72,6 @@ body {
   margin: 0 0 1rem;
 }
 
-.banner-btn {
-}
-
 @media only screen and (min-width: 42em) {
 
   .banner {
@@ -87,9 +84,6 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
-  }
-
-  .banner-content-inner {
   }
 
   .banner-title {
