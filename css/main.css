@@ -97,18 +97,19 @@ body {
 
   .banner-title {
     margin-bottom: 0;
-    position: absolute;
+    bottom: ;
   }
 
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
-    position: absolute;
   }
 
   .banner-btn {
     border-color: #fff;
     position: absolute;
+    right: 4em;
+    bottom: 1.5em;
   }
 
 }
