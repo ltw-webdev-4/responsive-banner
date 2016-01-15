@@ -87,6 +87,10 @@ body {
   }
 
   .banner-content-inner {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 
   }
 
