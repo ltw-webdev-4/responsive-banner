@@ -73,17 +73,21 @@ body {
 }
 
 .banner-btn {
-
+  border-color: #fff;
 }
 
 @media only screen and (min-width: 42em) {
 
   .banner {
     max-height: 500px;
+    position:relative;
   }
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+    width:100%;
+    position: absolute;
+    bottom: 0;
   }
 
   .banner-content-inner {
@@ -92,6 +96,8 @@ body {
 
   .banner-title {
     margin-bottom: 0;
+    position: relative;
+    bottom: 1;
   }
 
   .banner-desc {
