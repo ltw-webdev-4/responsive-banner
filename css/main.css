@@ -79,6 +79,7 @@ body {
 @media only screen and (min-width: 42em) {
 
   .banner {
+    position: relative;
     max-height: 500px;
   }
 
@@ -87,7 +88,9 @@ body {
   }
 
   .banner-content-inner {
-
+    position: absolute;
+    bottom: 0;
+    
   }
 
   .banner-title {
