@@ -103,6 +103,7 @@ body {
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
+    position: absolute;
   }
 
   .banner-btn {
