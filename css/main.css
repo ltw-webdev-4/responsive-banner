@@ -74,6 +74,7 @@ body {
 }
 
 .banner-btn {
+  position: static;
 }
 
 @media only screen and (min-width: 42em) {
