@@ -85,23 +85,27 @@ body {
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
 
   .banner-content-inner {
-    position: static;
+    position: relative;
   }
 
   .banner-title {
     margin-bottom: 0;
     position: absolute;
-    top: 15em;
+    bottom: 6em;
   }
 
   .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
     position: absolute;
-    top: 25em;
+    bottom: 3em;
   }
 
   .banner-btn {
