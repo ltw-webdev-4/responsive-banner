@@ -72,35 +72,37 @@ body {
   margin: 0 0 1rem;
 }
 
-.banner-btn {
-
-}
-
 @media only screen and (min-width: 42em) {
 
   .banner {
-    max-height: 500px;
+    background-color: transparent;
+    position: relative;
   }
 
   .banner-content {
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9) 80%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
-  .banner-content-inner {
-
+ .banner-content-inner {
+    position: relative;
   }
 
-  .banner-title {
+ .banner-title {
     margin-bottom: 0;
   }
 
-  .banner-desc {
+ .banner-desc {
     max-width: 25em;
     margin-bottom: 0;
   }
 
-  .banner-btn {
+ .banner-btn {
     border-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
-
 }
