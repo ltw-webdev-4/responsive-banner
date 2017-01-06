@@ -1,33 +1,42 @@
+---
+summary: 'Practice some techniques from last term like modular CSS, type systems and also practice position.'
+time: '1 hour'
+deliverables: '1 HTML file, 3 CSS files, images'
+---
+
 # Responsive banner
 
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
+## Overview
+
+- *Fork this repository.*
+- Create the layout that matches the screenshots
+- Use `type.css` and `modules.css` — do not include `grid.css` it isn’t required
+- Text can be found inside the `content.txt` file.
+- *Run it through Markbot and make sure it passes all the checks.*
 
 ---
 
-**Practice using `position`, `absolute`, and `relative` in a responsive setting by recreating a responsive hero banner.**
+## Details
 
-- Your goal is to match images in the `screenshots` folder.
-- The HTML is already done—don’t touch it.
-- And some of the CSS is in place too.
-- *What’s important for you to do is add the proper `position` and coordinates to the correct elements.*
-
-**Only use these CSS properties:**
-
-- `position`
-- `top`, `left`, `right`, `bottom`
-- `width`
+- *Typefaces:* `Georgia`
+- *Colours:* `#fff`, `#efefef`, `#97a49b`, `#495562`, `rgba(73, 85, 98, 0)` (you’ll have to adjust the opacity)
+- *Media query widths:* `42em`
+- *Maximum widths:* `25em`, `50em`
+- *Maximum heights:* `500px`
+- *Typografier settings:* defaults
+- *Modulifier settings:* select all
 
 ---
 
-## Fork, pull request, submit URL
+## Goal
 
-Use the [fork and pull request method](http://tasks.learn-the-web.algonquindesign.ca/web-dev-1/fork-pass-tests/).
+Visually match the images in the “screenshots” folder and create the interaction shown in the linked video.
 
-**Hand in your Pull Request URL for this project.** It should look like this:
+- Final screenshots in the “screenshots” folder.
+- [**Watch this video to see how it interacts.**](https://youtu.be/u65dQnB7dJM)
 
-```
-https://github.com/acgd-webdev-1/responsive-banner/pull/1
-```
+---
 
-**This exercise is pass or fail based on whether you complete all the requirements of the auto grading.**
+## Hand in
+
+Drop this folder into your Markbot application. Make sure to fix all the errors. And submit to Canvas using Markbot.
