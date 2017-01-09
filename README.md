@@ -1,7 +1,7 @@
 ---
-summary: 'Practice some techniques from last term like modular CSS, type systems and also practice position.'
+summary: 'Practice some techniques from last term like modular CSS, grid systems, type systems and also practice position.'
 time: '1 hour'
-deliverables: '1 HTML file, 3 CSS files, images'
+deliverables: '1 HTML file, 4 CSS files, images'
 ---
 
 # Responsive banner
@@ -10,7 +10,7 @@ deliverables: '1 HTML file, 3 CSS files, images'
 
 - *Fork this repository.*
 - Create the layout that matches the screenshots
-- Use `type.css` and `modules.css` — do not include `grid.css` it isn’t required
+- Use `modules.css`, `grid.css` & `type.css`
 - Text can be found inside the `content.txt` file.
 - *Run it through Markbot and make sure it passes all the checks.*
 
@@ -19,12 +19,11 @@ deliverables: '1 HTML file, 3 CSS files, images'
 ## Details
 
 - *Typefaces:* `Georgia`
-- *Colours:* `#fff`, `#efefef`, `#97a49b`, `#495562`, `rgba(73, 85, 98, 0)` (you’ll have to adjust the opacity)
-- *Media query widths:* `42em`
-- *Maximum widths:* `25em`, `50em`
+- *Colours:* `#fff`, `#efefef`, `#97a49b`, `#495562`, `rgba(73, 85, 98, .9)`, `transparent`
 - *Maximum heights:* `500px`
-- *Typografier settings:* defaults
 - *Modulifier settings:* select all
+- *Gridifier settings:* defaults
+- *Typografier settings:* defaults
 
 ---
 
@@ -33,7 +32,7 @@ deliverables: '1 HTML file, 3 CSS files, images'
 Visually match the images in the “screenshots” folder and create the interaction shown in the linked video.
 
 - Final screenshots in the “screenshots” folder.
-- [**Watch this video to see how it interacts.**](https://youtu.be/u65dQnB7dJM)
+- [**Watch this video to see how it interacts.**](https://youtu.be/SwmuvJa9JtQ)
 
 ---
 
