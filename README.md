@@ -1,6 +1,6 @@
 ---
 summary: 'Practice some techniques from last term like modular CSS, grid systems, type systems and also practice position.'
-time: '1 hour'
+time: '2 hours'
 deliverables: '1 HTML file, 4 CSS files, images'
 ---
 
