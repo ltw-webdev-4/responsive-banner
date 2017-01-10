@@ -44,12 +44,11 @@ css:
     has:
       - ['html', 'font-family', 'Georgia, serif']
     search:
-      - 'transparent'
       - '#fff'
       - '#efefef'
       - '#97a49b'
       - '#495562'
-      - 'rgba\(73, 85, 98, \.9\)'
+      - 'rgba\(73, 85, 98'
       - 'max-height: 500px'
       - 'background-image: linear-gradient'
     searchNot:

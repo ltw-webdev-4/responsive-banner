@@ -19,7 +19,7 @@ deliverables: '1 HTML file, 4 CSS files, images'
 ## Details
 
 - *Typefaces:* `Georgia`
-- *Colours:* `#fff`, `#efefef`, `#97a49b`, `#495562`, `rgba(73, 85, 98, .9)`, `transparent`
+- *Colours:* `#fff`, `#efefef`, `#97a49b`, `#495562`, `rgba(73, 85, 98, .9)` (you’ll have to adjust the alpha)
 - *Maximum heights:* `500px`
 - *Modulifier settings:* select all
 - *Gridifier settings:* defaults
